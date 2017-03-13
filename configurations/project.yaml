@@ -1,0 +1,17 @@
+---
+service:
+  api_url: 'https://api.worldweatheronline.com/premium/v1/past-weather.ashx'
+  api_key: 'APIKEY'
+
+configuration:
+  denmark:
+    cities: ['copenhagen', 'aarhus']
+    start_date: '2017-01-01'
+    end_date: '2017-01-23'
+    option: 'single'
+
+  india:
+    cities: ['Kolkata', 'Shiliguri']
+    start_date: '2017-01-01'
+    end_date: '2017-01-23'
+    option: 'multiple'

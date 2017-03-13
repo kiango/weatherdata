@@ -1,0 +1,10 @@
+# Ignore temp files
+
+*~
+*.gitignore~
+*.md~
+*.py~
+
+# ignore folders
+projects/
+
