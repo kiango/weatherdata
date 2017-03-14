@@ -21,7 +21,7 @@ class Process:
 
         api_url = allConfigData['service']['api_url']
         api_key = allConfigData['service']['api_key']
-        city = allConfigData['configuration']['denmark']['cities'][0]
+        city = allConfigData['configuration']['denmark']['cities'][0] # only copenhagen
         start_date = allConfigData['configuration']['denmark']['start_date']
         end_date = allConfigData['configuration']['denmark']['end_date']
         option = allConfigData['configuration']['denmark']['option']

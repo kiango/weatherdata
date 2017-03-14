@@ -1,5 +1,5 @@
 '''
-A Python 3 script for requesitng json-weather-data from wwo website according to the yaml-file specification.
+A Python 3 script for requesting json-weather-data from wwo website according to the yaml-file specification.
 The script will then write the server response into a text-/json-file
 '''
 
@@ -11,9 +11,10 @@ import os.path
 with open("configurations/project.yaml", "r") as f:
     allConfigData = yaml.load(f)
 
+
 api_url = allConfigData['service']['api_url']
 api_key = allConfigData['service']['api_key']
-city = allConfigData['configuration']['denmark']['cities'][0]
+city = allConfigData['configuration']['denmark']['cities'][0] # only copenhagen
 start_date = allConfigData['configuration']['denmark']['start_date']
 end_date = allConfigData['configuration']['denmark']['end_date']
 option = allConfigData['configuration']['denmark']['option']
